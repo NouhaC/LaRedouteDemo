@@ -25,5 +25,11 @@
     "nodemon": "^1.18.9",
     "sass-loader": "^7.1.0",
     "webpack": "^4.33.0"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "heroku-postbuild": "npm run build"
   }
 }
