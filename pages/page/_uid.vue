@@ -2,7 +2,9 @@
   <section class="page">
     <!-- Vue tag to add header component -->
     <header class="site-header">
-      <img class="logo" src="https://www.winningappliances.com.au/assets/img/svg/wa-logo-gold.svg" alt="Prismic">
+      <router-link to="/" class="logo">
+        <img class="logo" src="https://www.winningappliances.com.au/assets/img/svg/wa-logo-gold.svg" alt="Prismic">
+      </router-link>      
       <nav>
         <ul>
           <li v-for="menuLink in menuLinks" :key="menuLink.id">
@@ -76,13 +78,12 @@ export default {
 
 <style lang="sass">
 .site-header
-  background-color: #090
   height: 30px
+  padding: 20px 0
   color: #484d52
   font-weight: 700
   a
-    color: #fff
-    padding-right: 20px
+    color: #484d52
     font-weight: 700
   nav a:hover
     color: #72767B
@@ -99,7 +100,6 @@ export default {
     display: inline-block
     font-size: 22px
     font-weight: 900
-    margin: -10px 30px;
   nav
     float: right
     ul

@@ -1,6 +1,8 @@
 <template>
   <header class="site-header">
-    <img class="logo" src="https://www.europcar.com/files/live/sites/Europcar/files/Meganav/NEW-Logo-size%20fit%20for%20header.png" alt="Prismic">
+    <router-link to="/" class="logo">
+      <img class="logo" src="https://www.winningappliances.com.au/assets/img/svg/wa-logo-gold.svg" alt="Prismic">
+    </router-link>
     <nav>
       <ul>
         <li v-for="menuLink in menuLinks" :key="menuLink.id">
