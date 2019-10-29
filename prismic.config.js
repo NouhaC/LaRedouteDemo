@@ -1,5 +1,5 @@
 var api = {
-  apiEndpoint: "https://winning-group-demo.cdn.prismic.io/api/v2",
+  apiEndpoint: "https://falabella-prismicdemo.cdn.prismic.io/api/v2",
 }
 
 module.exports = api;

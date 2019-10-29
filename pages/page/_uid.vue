@@ -3,7 +3,7 @@
     <!-- Vue tag to add header component -->
     <header class="site-header">
       <router-link to="/" class="logo">
-        <img class="logo" src="https://www.winningappliances.com.au/assets/img/svg/wa-logo-gold.svg" alt="Prismic">
+        <img class="logo" src="https://seeklogo.com/images/F/falabella-logo-2F240D7A62-seeklogo.com.png" alt="Prismic">
       </router-link>      
       <nav>
         <ul>

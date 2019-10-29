@@ -1,7 +1,7 @@
 <template>
   <header class="site-header">
     <router-link to="/" class="logo">
-      <img class="logo" src="https://www.winningappliances.com.au/assets/img/svg/wa-logo-gold.svg" alt="Prismic">
+      <img class="logo" src="http://logo-load.com/uploads/posts/2016-08/falabella-logo.png" alt="Prismic">
     </router-link>
     <nav>
       <ul>
@@ -44,6 +44,7 @@ export default {
     display: inline-block
     font-size: 22px
     font-weight: 900
+    height: 50px
   nav
     float: right
     ul
