@@ -3,7 +3,7 @@
     <!-- Vue tag to add header component -->
     <header class="site-header">
       <router-link to="/" class="logo">
-        <img class="logo" src="https://seeklogo.com/images/F/falabella-logo-2F240D7A62-seeklogo.com.png" alt="Prismic">
+        <img class="logo" src="https://www.peclersparis.com/wp-content/uploads/2019/07/LaRedoute_Logo.jpg" alt="La Redoute">
       </router-link>      
       <nav>
         <ul>

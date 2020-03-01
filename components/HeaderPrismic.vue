@@ -1,7 +1,7 @@
 <template>
   <header class="site-header">
     <router-link to="/" class="logo">
-      <img class="logo" src="http://logo-load.com/uploads/posts/2016-08/falabella-logo.png" alt="Prismic">
+      <img class="logo" src="https://www.peclersparis.com/wp-content/uploads/2019/07/LaRedoute_Logo.jpg" alt="La Redoute">
     </router-link>
     <nav>
       <ul>
