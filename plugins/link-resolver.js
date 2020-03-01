@@ -16,5 +16,10 @@ export default function (doc) {
     return '/page/' + doc.uid
   }
 
+  if (doc.type === 'campaign'){
+    return '/campaign/' + doc.uid
+
+  }
+
   return '/not-found'
 }

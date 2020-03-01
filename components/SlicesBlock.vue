@@ -26,6 +26,10 @@
             <template v-else-if="slice.slice_type === 'featured_brands'">
                 <featured-brands :slice="slice"/>
             </template>
+             <!-- Campaign Banner slice component -->
+            <template v-else-if="slice.slice_type === 'campaign_banner'">
+                <campaign-banner :slice="slice"/>
+            </template>
         </section>
     </div>
 </template>
@@ -38,6 +42,7 @@ const FullWidthImage = () => import("./slices/FullWidthImage.vue");
 const ImageGallery = () => import("./slices/ImageGallery.vue");
 const ImageHighlight = () => import("./slices/ImageHighlight.vue");
 const FeaturedBrands = () => import("./slices/FeaturedBrands.vue");
+const CampaignBanner = () => import("./slices/CampaignBanner.vue");
 
 export default {
   props: ['slices'],
@@ -48,7 +53,8 @@ export default {
     FullWidthImage,
     ImageGallery,
     ImageHighlight,
-    FeaturedBrands
+    FeaturedBrands,
+    CampaignBanner
   },
 }
 </script>
