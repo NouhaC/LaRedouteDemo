@@ -1,14 +1,9 @@
 <template>
-    <section class='full-width-image content-setion'>
+    <section class="full-width-image campaign-setion" :style="{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(' + slice.primary.image_banniere_de_campagne + ')' }">
         <prismic-image :field="slice.primary.image_banniere_de_campagne "/>
-        <h2 class="campaign-title">
-            {{ $prismic.richTextAsPlain(slice.primary.campagne.title) }}
-        </h2>
-        <!-- Template for page tagline. -->
-        <p class="campaign-description">{{ $prismic.richTextAsPlain(slice.primary.campagne.description) }}</p>
-        <prismic-link class="campaign-button" :field="slice.primary.button_link">
-            {{ $prismic.richTextAsPlain(slice.primary.button_label) }}
-        </prismic-link>
+        <h2> {{slice.primary.campagne.title }} </h2>
+        <p class="campaign-description">{{ slice.primary.campagne.description }}</p>
+        <prismic-link :field="slice.primary.button_link"> {{ slice.primary.button_label }} </prismic-link>
     </section>
 </template>
 
@@ -21,6 +16,6 @@ export default {
 
 <style lang="sass" scoped>
 @media (max-width: 767px)
-  .content-section
+  .campaign-section
     margin-bottom: 2rem
 </style>
